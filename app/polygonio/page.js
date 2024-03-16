@@ -16,30 +16,30 @@ export default function Polygonio() {
       <div className="full-text">
         <p>
           Polygon.io est un jeu web réalisé dans le cadre du cours
-          &quot;Advanced Software Engineering&quot; à l'École des Mines de
+          &quot;Advanced Software Engineering&quot; à l&apos;École des Mines de
           Nancy.
         </p>
         <p>
           Le but de ce projet était de réaliser une application web utilisant
           des api. Nous avons choisi de réaliser un jeu web, multi-joueurs,
-          s'inspirant du style du jeu{" "}
+          s&apos;inspirant du style du jeu{" "}
           <a href="https://agar.io">&quot;Agar.io&quot;</a>.
         </p>
         <p>
           Dans ce jeu, les joueurs incarnent des polygones et doivent abattre
-          les autres joueurs pour gagner de l'expérience et évoluer en un
+          les autres joueurs pour gagner de l&apos;expérience et évoluer en un
           polygone plus grand. (Un polygone à n cotés peut tirer n projectiles.)
-          Les joueurs peuvent également collecter des bulles d'expérience sur la
+          Les joueurs peuvent également collecter des bulles d&apos;expérience sur la
           map ou des bulles de vie pour se soigner. Une jauge représentant le
           nombre de balles dans leur chargeur est également présente. Enfin, un
-          classement des joueurs, une minimap ainsi qu'un chat textuel sont
+          classement des joueurs, une minimap ainsi qu&apos;un chat textuel sont
           affiché en temps réel.
         </p>
         <p>
           Le code source de ce projet est disponible sur{" "}
           <a href="https://github.com/lucas-bertinchamp/polygon.io"> GitHub</a>.
-          Le jeu n'est plus déployé pour ne pas engendrer de coûts
-          d'hébergement.
+          Le jeu n&apos;est plus déployé pour ne pas engendrer de coûts
+          d&apos;hébergement.
         </p>
       </div>
 
@@ -73,8 +73,8 @@ export default function Polygonio() {
           </p>
           <p className="mid-zone-text-text">
             Pixi.js est une librairie JavaScript qui permet de réaliser des
-            rendus 2D rapides et fluides. Nous l'avons utilisé pour toute la
-            partie graphique du jeu et notamment l'interface utilisateur, les
+            rendus 2D rapides et fluides. Nous l&apos;avons utilisé pour toute la
+            partie graphique du jeu et notamment l&apos;interface utilisateur, les
             polygones, les balles et les bulles.
           </p>
         </div>

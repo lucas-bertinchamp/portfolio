@@ -15,7 +15,7 @@ export default function Log8235() {
 
       <div className="full-text">
         <p>
-          Le cours "LOG8235 - Agents intelligents pour jeux vidéo" est
+          Le cours &quot;LOG8235 - Agents intelligents pour jeux vidéo&quot; est
           disponible à Polytechnique Montréal dans le département de génie
           logiciel et informatique. Il a été intiallement conçu par Ubisoft et
           s&apos; oriente autour d&apos; Unreal Engine 5. Aujourd&apos; hui, le
