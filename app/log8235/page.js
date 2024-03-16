@@ -18,13 +18,15 @@ export default function Log8235() {
           Le cours "LOG8235 - Agents intelligents pour jeux vidéo" est
           disponible à Polytechnique Montréal dans le département de génie
           logiciel et informatique. Il a été intiallement conçu par Ubisoft et
-          s'oriente autour d'Unreal Engine 5. Aujourd'hui, le cours est dispensé
-          par différents professionnels de l'industrie du jeu vidéo.
+          s&apos; oriente autour d&apos; Unreal Engine 5. Aujourd&apos; hui, le
+          cours est dispensé par différents professionnels de l&apos; industrie
+          du jeu vidéo.
         </p>
         <p>
-          Ce cours se concentre sur l'implémentation d'IA dans les jeux vidéos,
-          en passant par les différentes thématiques qui entourent ce sujet
-          comme l'animation, la physique, la navigation, la décision etc...
+          Ce cours se concentre sur l&apos; implémentation d&apos; IA dans les
+          jeux vidéos, en passant par les différentes thématiques qui entourent
+          ce sujet comme l&apos; animation, la physique, la navigation, la
+          décision etc...
         </p>
         <p>
           Ci-dessous se trouvent les différents travaux produits en TP dans ce
@@ -40,10 +42,10 @@ export default function Log8235() {
             </p>
             <p className="mid-zone-text-text">
               Ce TP avait pour but de se familiariser avec le déplacement
-              d'agents à l'aide de la physique (Raycast, forces, etc...). Ce
-              dernier devait se déplacer dans la scène, éviter les pièges,
-              rejoindre des collectibles pour gagner un boost et attraper/fuir
-              l'agent selon son état.
+              d&apos; agents à l&apos; aide de la physique (Raycast, forces,
+              etc...). Ce dernier devait se déplacer dans la scène, éviter les
+              pièges, rejoindre des collectibles pour gagner un boost et
+              attraper/fuir l&apos; agent selon son état.
             </p>
           </div>
           <div className="mid-zone-img mgr pdt">
@@ -57,10 +59,11 @@ export default function Log8235() {
           </div>
           <div className="mid-zone-text mgr mgl">
             <p className="mid-zone-text-text">
-              A l'aide de Raycast, on peut récupérer la position des murs ainsi
-              que leur vecteur normal. Cela permet de déterminer la direction
-              dans laquelle l'agent doit se déplacer pour éviter les obstacles
-              par produit vectoriel entre la normale et le up vector de l'agent.
+              A l&apos; aide de Raycast, on peut récupérer la position des murs
+              ainsi que leur vecteur normal. Cela permet de déterminer la
+              direction dans laquelle l&apos; agent doit se déplacer pour éviter
+              les obstacles par produit vectoriel entre la normale et le up
+              vector de l&apos; agent.
             </p>
           </div>
         </div>
@@ -68,10 +71,11 @@ export default function Log8235() {
         <div className="mid-zone-line mgb">
           <div className="mid-zone-text mgl">
             <p className="mid-zone-text-text">
-              L'agent peut détecter le joueur à l'aide d'un SphereOverlap. Si un
-              rayon est tracé entre l'agent et le joueur sans obstacles, il se
-              dirige vers lui. Si le joueur attrape un collectible, l'agent
-              passe en comportement de fuite et cherche à s'éloigner de lui.
+              L&apos; agent peut détecter le joueur à l&apos; aide d&apos; un
+              SphereOverlap. Si un rayon est tracé entre l&apos; agent et le
+              joueur sans obstacles, il se dirige vers lui. Si le joueur attrape
+              un collectible, l&apos; agent passe en comportement de fuite et
+              cherche à s&apos; éloigner de lui.
             </p>
           </div>
           <div className="mid-zone-img mgr pdt">
@@ -90,8 +94,8 @@ export default function Log8235() {
               <b>TP2 : Déplacement par navmesh et animations</b>
             </p>
             <p className="mid-zone-text-text">
-              Ce TP est similaire au premier, mais cette fois-ci, l'agent doit
-              se déplacer en utilisant une navmesh. Il doit également être
+              Ce TP est similaire au premier, mais cette fois-ci, l&apos; agent
+              doit se déplacer en utilisant une navmesh. Il doit également être
               capable de sauter par dessus les pièges en utilisant les navlinks
               à sa disposition. Enfin, il doit être capable de jouer des
               animations en fonction de son état.
@@ -101,11 +105,11 @@ export default function Log8235() {
         <div className="mid-zone-line mgb">
           <div className="mid-zone-text mgl">
             <p className="mid-zone-text-text">
-              L'agent peut détecter le joueur à l'aide d'un SphereOverlap. Si un
-              rayon est tracé entre l'agent et le joueur sans obstacles, il se
-              dirige vers lui. L'agent utilise un LKP (Last Known Position) pour
-              aller investiguer la dernière position connue du joueur s'il ne le
-              vois plus.
+              L&apos; agent peut détecter le joueur à l&apos; aide d&apos; un
+              SphereOverlap. Si un rayon est tracé entre l&apos; agent et le
+              joueur sans obstacles, il se dirige vers lui. L&apos; agent
+              utilise un LKP (Last Known Position) pour aller investiguer la
+              dernière position connue du joueur s&apos; il ne le vois plus.
             </p>
           </div>
           <div className="mid-zone-img mgr pdt">
@@ -118,9 +122,9 @@ export default function Log8235() {
           </div>
           <div className="mid-zone-text mgr mgl">
             <p className="mid-zone-text-text">
-              L'agent fuit le joueur si ce dernier attrape un collectible. Il
-              s'enfuit vers une des positions de fuite prédéfinies dans la
-              scène.
+              L&apos; agent fuit le joueur si ce dernier attrape un collectible.
+              Il s&apos; enfuit vers une des positions de fuite prédéfinies dans
+              la scène.
             </p>
           </div>
         </div>

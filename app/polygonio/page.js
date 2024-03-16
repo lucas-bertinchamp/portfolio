@@ -15,13 +15,15 @@ export default function Polygonio() {
 
       <div className="full-text">
         <p>
-          Polygon.io est un jeu web réalisé dans le cadre du cours "Advanced
-          Software Engineering" à l'École des Mines de Nancy.
+          Polygon.io est un jeu web réalisé dans le cadre du cours
+          &quot;Advanced Software Engineering&quot; à l'École des Mines de
+          Nancy.
         </p>
         <p>
           Le but de ce projet était de réaliser une application web utilisant
           des api. Nous avons choisi de réaliser un jeu web, multi-joueurs,
-          s'inspirant du style du jeu <a href="https://agar.io">"Agar.io"</a>.
+          s'inspirant du style du jeu{" "}
+          <a href="https://agar.io">&quot;Agar.io&quot;</a>.
         </p>
         <p>
           Dans ce jeu, les joueurs incarnent des polygones et doivent abattre

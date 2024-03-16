@@ -16,21 +16,21 @@ export default function MinancyRealm() {
       <div className="full-text">
         <p>
           Minancy Realm est un projet qui a été réalisé en 2 semaines dans le
-          cadre du cours "Jeux Vidéo et culture geek" de l'école des Mines de
-          Nancy.
+          cadre du cours &quot;Jeux Vidéo et culture geek&quot; de l&apos;école
+          des Mines de Nancy.
         </p>
         <p>
           Le projet consistait à présenter un domaine de la culture geek par un
           format original. Nous avons décidé de réaliser un jeu vidéo pour
-          présenter le thème "Jeux de société".
+          présenter le thème &quot;Jeux de société&quot;.
         </p>
         <p>
           Ce jeu est un RPG réalisé sur RPG Maker MV dont je me suis entièrement
           occupé du développement. Le joueur incarne un jeune dans un village
           dans lequel les jeux de société prennent vie et attaquent les
-          habitants suite à l'apprition d'un mysterieux personnage. A la fin de
-          chaque combat, le joueur en apprend plus sur l'univers des jeux de
-          société en récupérant les items des jeux vaincus.
+          habitants suite à l&apos;apprition d&apos;un mysterieux personnage. A
+          la fin de chaque combat, le joueur en apprend plus sur l&apos;univers
+          des jeux de société en récupérant les items des jeux vaincus.
         </p>
       </div>
 

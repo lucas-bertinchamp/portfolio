@@ -16,24 +16,25 @@ export default function YeahCastle() {
       <div className="full-text">
         <p>
           Yeah Castle est un projet né du travail collaboratif entre étudiants
-          d'école d'ingénieur et d'école d'art et de design (Campus Artem,
-          Nancy, France) dans le cadre du cours "Techniques de l'animation et du
-          jeu vidéo".
+          d&apos;école d&apos;ingénieur et d&apos;école d&apos;art et de design
+          (Campus Artem, Nancy, France) dans le cadre du cours &quot;Techniques
+          de l&apos;animation et du jeu vidéo&quot;.
         </p>
         <p>
           Par équipe de 4, ce projet consistait à réaliser un jeu vidéo jouable
-          sur borne d'arcade pour être exposé lors du festival "YEAH !" à
-          Lourmarin (France). Il fallait que les jeux produits soient court et
-          avec un aspect competitif pour pousser les joueurs à y rejouer.
+          sur borne d&apos;arcade pour être exposé lors du festival &quot;YEAH
+          !&quot; à Lourmarin (France). Il fallait que les jeux produits soient
+          court et avec un aspect competitif pour pousser les joueurs à y
+          rejouer.
         </p>
         <p>
-          Ce jeu est de type "Mario Like" et est réalisé sur Unity (1ère
-          experience avec ce moteur de jeu). Le joueur incarne un ours,
+          Ce jeu est de type &quot;Mario Like&quot; et est réalisé sur Unity
+          (1ère experience avec ce moteur de jeu). Le joueur incarne un ours,
           personnage emblémique du festival, qui doit atteindre la fin du niveau
           pour affronter le boss (1 des 3 organisateurs du festival). Sur son
-          chemin, se dresse des ennemis qu'il doit éviter ou éliminer tout en se
-          déplaçant de plateforme en plateforme et en ramassant des power-ups et
-          autres objets de score.
+          chemin, se dresse des ennemis qu&apos;il doit éviter ou éliminer tout
+          en se déplaçant de plateforme en plateforme et en ramassant des
+          power-ups et autres objets de score.
         </p>
       </div>
 
