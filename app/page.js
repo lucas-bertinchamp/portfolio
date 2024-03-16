@@ -20,7 +20,7 @@ export default function Home() {
       <div className="personal-projects">
         <ProjectComponent
           params={{
-            title: "Nom à définir",
+            title: "Projet Mobile",
             image: "/img/portfolio/unity.png",
             description: "Jeu mobile en cours de développement sur Unity.",
             link: "/mobileproject",
