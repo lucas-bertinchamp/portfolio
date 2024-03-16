@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.navbar-perso {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: rgb(56, 54, 54);
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  margin-right: 10%;
+}
+
+.navbar-item {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #ececec;
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}

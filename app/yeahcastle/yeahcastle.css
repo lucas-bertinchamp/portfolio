@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#headerwrap {
+  background: url(/img/portfolio/yeahCastle.png) no-repeat center top;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 450px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.all-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.full-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4a4a4a;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.video {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.bottom-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4a4a4a;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.zone-white {
+  background-color: white;
+  color: #4a4a4a;
+}
+
+.white-text {
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}

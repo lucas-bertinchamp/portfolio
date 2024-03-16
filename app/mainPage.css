@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#headerwrap {
+  background: url(/img/background.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  height: 650px;
+  width: 100%;
+
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .mid-zone-line {
+    display: none;
+  }
+}
+
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.all-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.personal-projects {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.school-projects {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.icon-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

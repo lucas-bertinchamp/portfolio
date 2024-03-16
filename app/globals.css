@@ -1,33 +1,118 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*
+ * Author: Carlos Alvarez
+ * URL: http://Alvarez.is
+ *
+ * Project Name: NYC Design
+ * Version: 1.0
+ * Date: 04-20-2014
+ * URL: 
+ */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+::-moz-selection {
+  background: #f2c2c9;
+  color: #a4003a;
+  text-shadow: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/*
+    * A better looking default horizontal rule
+    */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
+
+.centered {
+  text-align: center;
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+/* ==========================================================================
+      General styles
+      ========================================================================== */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+/* ==========================================================================
+      Wrap Sections
+      ========================================================================== */
+
+/* Gallery */
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+}
+
+/* ==========================================================================
+      Utils
+      ========================================================================== */
+
+.mgt {
+  margin-top: 3%;
+}
+
+.mgl {
+  margin-left: 10%;
+}
+
+.mgr {
+  margin-right: 5%;
+}
+
+.pdl {
+  padding-left: 10%;
+}
+
+.pdt {
+  padding-top: 3%;
+}
+
+.mgb {
+  margin-bottom: 3%;
 }
