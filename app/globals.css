@@ -1,25 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://Alvarez.is
- *
- * Project Name: NYC Design
- * Version: 1.0
- * Date: 04-20-2014
- * URL: 
- */
-
-/* ==========================================================================
-   Base Styles, Bootstrap Modifications & Fonts Import
-   ========================================================================== */
-
-/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 ::-moz-selection {
   background: #f2c2c9;
