@@ -29,11 +29,11 @@ export default function Polygonio() {
           Dans ce jeu, les joueurs incarnent des polygones et doivent abattre
           les autres joueurs pour gagner de l&apos;expérience et évoluer en un
           polygone plus grand. (Un polygone à n cotés peut tirer n projectiles.)
-          Les joueurs peuvent également collecter des bulles d&apos;expérience sur la
-          map ou des bulles de vie pour se soigner. Une jauge représentant le
-          nombre de balles dans leur chargeur est également présente. Enfin, un
-          classement des joueurs, une minimap ainsi qu&apos;un chat textuel sont
-          affiché en temps réel.
+          Les joueurs peuvent également collecter des bulles d&apos;expérience
+          sur la map ou des bulles de vie pour se soigner. Une jauge
+          représentant le nombre de balles dans leur chargeur est également
+          présente. Enfin, un classement des joueurs, une minimap ainsi
+          qu&apos;un chat textuel sont affiché en temps réel.
         </p>
         <p>
           Le code source de ce projet est disponible sur{" "}
@@ -73,9 +73,9 @@ export default function Polygonio() {
           </p>
           <p className="mid-zone-text-text">
             Pixi.js est une librairie JavaScript qui permet de réaliser des
-            rendus 2D rapides et fluides. Nous l&apos;avons utilisé pour toute la
-            partie graphique du jeu et notamment l&apos;interface utilisateur, les
-            polygones, les balles et les bulles.
+            rendus 2D rapides et fluides. Nous l&apos;avons utilisé pour toute
+            la partie graphique du jeu et notamment l&apos;interface
+            utilisateur, les polygones, les balles et les bulles.
           </p>
         </div>
       </div>

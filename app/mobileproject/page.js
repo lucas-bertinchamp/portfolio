@@ -20,16 +20,17 @@ export default function MobileProject() {
         </p>
         <p>
           Le joueur incarne un petit personnage atterit mystérieusement dans un
-          donjon et doit s&apos;échapper. S&apos;aventurant de salle en salle, il devra
-          éviter les pièges qui se dressent sur son chemin, combattre des
-          ennemis et fera des rencontres inattendues.
+          donjon et doit s&apos;échapper. S&apos;aventurant de salle en salle,
+          il devra éviter les pièges qui se dressent sur son chemin, combattre
+          des ennemis et fera des rencontres inattendues.
         </p>
         <p>
           Ce jeu est développé entièrement en solo depuis fin Janvier 2024. Il
           me permet de mettre en pratique les compétences acquises lors de mes
-          études et d&apos;approfondir mes connaissances sur le logiciel Unity. A
-          terme, je souhaiterais le publier sur l&apos;App Store et le Play Store.
-          L&apos;intégralité des assets graphiques du jeu sont issus du travail de{" "}
+          études et d&apos;approfondir mes connaissances sur le logiciel Unity.
+          A terme, je souhaiterais le publier sur l&apos;App Store et le Play
+          Store. L&apos;intégralité des assets graphiques du jeu sont issus du
+          travail de{" "}
           <a href="https://krishna-palacio.itch.io">Krishna Palacio</a> qui se
           spécialise dans la création d&apos;assets 8 bits.
         </p>
@@ -42,9 +43,9 @@ export default function MobileProject() {
               <b>Un donjon aux multiples dangers</b>
             </p>
             <p className="mid-zone-text-text">
-              Remplis de pièges et d&apos;ennemis, le donjon est un endroit dangereux
-              où le joueur devra faire preuve d&apos;attention pour progresser.{" "}
-              <br /> <br />
+              Remplis de pièges et d&apos;ennemis, le donjon est un endroit
+              dangereux où le joueur devra faire preuve d&apos;attention pour
+              progresser. <br /> <br />
               Avec seulement 2 points de vie et une attaque à courte portée en
               début de partie , il faudra visiter encore et encore les salles
               jusqu&apos;à en mémoriser les moindres détails.
@@ -64,10 +65,10 @@ export default function MobileProject() {
               <b>Des ennemis à affronter</b>
             </p>
             <p className="mid-zone-text-text">
-              Nombre d&apos;ennemis peuplent le donjon. Plus ou moins puissants, ils
-              sont tous prêts à en découdre avec le joueur. <br /> <br />
-              Le joueur n&apos;aura pas d&apos;autre choix que de les défaire pour avancer
-              !
+              Nombre d&apos;ennemis peuplent le donjon. Plus ou moins puissants,
+              ils sont tous prêts à en découdre avec le joueur. <br /> <br />
+              Le joueur n&apos;aura pas d&apos;autre choix que de les défaire
+              pour avancer !
             </p>
           </div>
         </div>
@@ -101,13 +102,14 @@ export default function MobileProject() {
               <b>Un système d&apos;inventaire, de boutique, de dialogue</b>
             </p>
             <p className="mid-zone-text-text">
-              Tout RPG se doit de posséder un système d&apos;inventaire. Le joueur
-              récupère des objets et de l&apos;argent en explorant le donjon. Items
-              qu&apos;il pourra échanger contre des objets précieux <br /> <br />
-              Basé sur les scriptable objects d&apos;Unity, le système d&apos;inventaire a
-              été développé pour être facilement extensible. Créer de nouveaux
-              items se fait en quelques clics. Les dialogues sont également
-              gérés par ce procédé.
+              Tout RPG se doit de posséder un système d&apos;inventaire. Le
+              joueur récupère des objets et de l&apos;argent en explorant le
+              donjon. Items qu&apos;il pourra échanger contre des objets
+              précieux <br /> <br />
+              Basé sur les scriptable objects d&apos;Unity, le système
+              d&apos;inventaire a été développé pour être facilement extensible.
+              Créer de nouveaux items se fait en quelques clics. Les dialogues
+              sont également gérés par ce procédé.
             </p>
           </div>
         </div>
