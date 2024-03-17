@@ -1,6 +1,6 @@
 .navbar-perso {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -9,20 +9,25 @@
 }
 
 .navbar-items {
+  width: 50%;
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
   font-size: 15px;
   padding: 10px;
-  margin-right: 10%;
+}
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    width: 100%;
+  }
 }
 
 .navbar-item {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: #ececec;
-  margin-right: 40px;
   font-size: 18px;
   font-weight: 500;
 }

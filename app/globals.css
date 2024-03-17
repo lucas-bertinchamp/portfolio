@@ -10,6 +10,10 @@
     * A better looking default horizontal rule
     */
 
+html {
+  width: 100%;
+}
+
 hr {
   display: block;
   height: 1px;

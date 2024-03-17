@@ -10,7 +10,7 @@ export default function YeahCastle() {
       <section id="works"></section>
 
       <div className="category-row">
-        <b> Introduction </b>
+        <b> Présentation </b>
       </div>
 
       <div className="full-text">

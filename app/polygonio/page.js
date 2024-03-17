@@ -10,7 +10,7 @@ export default function Polygonio() {
       <section id="works"></section>
 
       <div className="category-row">
-        <b> Introduction </b>
+        <b> Présentation </b>
       </div>
 
       <div className="full-text">
@@ -64,7 +64,7 @@ export default function Polygonio() {
       </div>
 
       <div className="mid-zone zone-white">
-        <div className="mid-zone-text mgl">
+        <div className="mid-zone-img mgl">
           <img src="/img/pixijs.png" alt="Pixijs" className="mid-img" />
         </div>
         <div className="mid-zone-text mgr pdl">
@@ -109,7 +109,7 @@ export default function Polygonio() {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-        className="mgb"
+        className="video"
       ></iframe>
     </div>
   );

@@ -10,7 +10,7 @@ export default function MinancyRealm() {
       <section id="works"></section>
 
       <div className="category-row">
-        <b> Introduction </b>
+        <b> Présentation </b>
       </div>
 
       <div className="full-text">
@@ -49,10 +49,6 @@ export default function MinancyRealm() {
           allowfullscreen
           className="video"
         ></iframe>
-
-        <div className="school-projects">
-          <div className="grid"></div>
-        </div>
       </div>
     </div>
   );

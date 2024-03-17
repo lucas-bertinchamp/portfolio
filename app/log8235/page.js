@@ -10,7 +10,7 @@ export default function Log8235() {
       <section id="works"></section>
 
       <div className="category-row">
-        <b> Introduction </b>
+        <b> Présentation </b>
       </div>
 
       <div className="full-text">
@@ -35,7 +35,7 @@ export default function Log8235() {
       </div>
 
       <div className="mid-zone zone-black mgt">
-        <div className="mid-zone-line">
+        <div className="mid-zone-line img-right">
           <div className="mid-zone-text mgl">
             <p className="mid-zone-text-title">
               <b>TP1 : Déplacement par la physique</b>
@@ -49,11 +49,11 @@ export default function Log8235() {
             </p>
           </div>
           <div className="mid-zone-img mgr pdt">
-            <img src="/gifs/tp1-question3.gif" alt="tp1-q3" className=" gif" />
+            <img src="/gifs/tp1-question3.gif" alt="tp1-q3" className="gif" />
           </div>
         </div>
 
-        <div className="mid-zone-line">
+        <div className="mid-zone-line img-left">
           <div className="mid-zone-img mgl">
             <img src="/gifs/tp1-question4.gif" alt="tp1-q4" className="gif" />
           </div>
@@ -68,7 +68,7 @@ export default function Log8235() {
           </div>
         </div>
 
-        <div className="mid-zone-line mgb">
+        <div className="mid-zone-line img-right mgb">
           <div className="mid-zone-text mgl">
             <p className="mid-zone-text-text">
               L&apos;agent peut détecter le joueur à l&apos;aide d&apos;un
@@ -85,9 +85,9 @@ export default function Log8235() {
       </div>
 
       <div className="mid-zone zone-white pdt mgb">
-        <div className="mid-zone-line">
-          <div className="mid-zone-text mgl">
-            <img src="/gifs/tp2-gif1.gif" alt="tp2-gif1" className="gif2" />
+        <div className="mid-zone-line img-left">
+          <div className="mid-zone-img mgl">
+            <img src="/gifs/tp2-gif1.gif" alt="tp2-gif1" className="gif" />
           </div>
           <div className="mid-zone-text mgr pdl">
             <p className="mid-zone-text-title">
@@ -102,23 +102,23 @@ export default function Log8235() {
             </p>
           </div>
         </div>
-        <div className="mid-zone-line mgb">
+        <div className="mid-zone-line img-right mgb">
           <div className="mid-zone-text mgl">
             <p className="mid-zone-text-text">
               L&apos;agent peut détecter le joueur à l&apos;aide d&apos;un
               SphereOverlap. Si un rayon est tracé entre l&apos;agent et le
-              joueur sans obstacles, il se dirige vers lui. L&apos;agent
-              utilise un LKP (Last Known Position) pour aller investiguer la
-              dernière position connue du joueur s&apos;il ne le vois plus.
+              joueur sans obstacles, il se dirige vers lui. L&apos;agent utilise
+              un LKP (Last Known Position) pour aller investiguer la dernière
+              position connue du joueur s&apos;il ne le vois plus.
             </p>
           </div>
           <div className="mid-zone-img mgr pdt">
-            <img src="/gifs/tp2-gif2.gif" alt="tp2-gif2" className="gif2" />
+            <img src="/gifs/tp2-gif2.gif" alt="tp2-gif2" className="gif" />
           </div>
         </div>
-        <div className="mid-zone-line">
-          <div className="mid-zone-text mgl">
-            <img src="/gifs/tp2-gif3.gif" alt="tp2-gif3" className="gif2" />
+        <div className="mid-zone-line img-left">
+          <div className="mid-zone-img mgl">
+            <img src="/gifs/tp2-gif3.gif" alt="tp2-gif3" className="gif" />
           </div>
           <div className="mid-zone-text mgr mgl">
             <p className="mid-zone-text-text">
