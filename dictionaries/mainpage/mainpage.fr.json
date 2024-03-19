@@ -1,0 +1,27 @@
+{
+  "title": "LUCAS BERTINCHAMP",
+  "subtitle": "ÉTUDIANT POLYTECHNIQUE MONTREAL x MINES NANCY",
+  "rowCategories": ["Projets personnels", "Projets académiques"],
+  "projects": {
+    "minancyrealm": {
+      "title": "Minancy Realm",
+      "description": "Jeu réalisé sur RPGMaker pour le cours 'Jeu vidéo et culture geek' à Mines Nancy."
+    },
+    "yeahcastle": {
+      "title": "Yeah Castle",
+      "description": "Jeu pour borne d'arcade réalisé sur Unity pour le cours 'Techniques de l'animation et du jeu vidéo' à Mines Nancy."
+    },
+    "polygonio": {
+      "title": "Polygon.io",
+      "description": "Jeu web réalisé pour le cours 'Advanced Software Engineering' à Mines Nancy."
+    },
+    "log8235": {
+      "title": "Cours PolyMtl - LOG8235",
+      "description": "Travaux en lien avec le cours 'Agents intelligents pour jeux vidéo' à Polytechnique Montréal. Cours donnés sur Unreal Engine 5 et mis en place par Ubisoft."
+    },
+    "mobileproject": {
+      "title": "Projet Mobile",
+      "description": "Jeu mobile en cours de développement sur Unity."
+    }
+  }
+}

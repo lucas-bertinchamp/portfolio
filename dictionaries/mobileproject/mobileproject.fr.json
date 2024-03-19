@@ -1,0 +1,43 @@
+{
+  "title": "Projet Mobile",
+  "rowCategories": [
+    "Présentation",
+    "Et bien plus encore à découvrir bientôt !"
+  ],
+  "textParagraphs": [
+    "Projet Mobile *nom encore a définir* est mon premier projet de jeu vidéo dans un cadre non académique et développé sur Unity.",
+    "Le joueur incarne un petit personnage atterit mystérieusement dans un donjon et doit s'échapper. S'aventurant de salle en salle, il devra éviter les pièges qui se dressent sur son chemin, combattre des ennemis et fera des rencontres inattendues.",
+    "Ce jeu est développé entièrement en solo depuis fin Janvier 2024. Il me permet de mettre en pratique les compétences acquises lors de mes études et d'approfondir mes connaissances sur le logiciel Unity. A terme, je souhaiterais le publier sur l'App Store et le Play Store. L'intégralité des assets graphiques du jeu sont issus du travail de ",
+    "qui se spécialise dans la création d'assets 8 bits."
+  ],
+  "midRows": [
+    {
+      "title": "Un donjon aux multiples dangers",
+      "content": [
+        "Remplis de pièges et d'ennemis, le donjon est un endroit dangereux où le joueur devra faire preuve d'attention pour progresser.",
+        "Avec seulement 2 points de vie et une attaque à courte portée en début de partie , il faudra visiter encore et encore les salles jusqu'à en mémoriser les moindres détails."
+      ]
+    },
+    {
+      "title": "Des ennemis à affronter",
+      "content": [
+        "Nombre d'ennemis peuplent le donjon. Plus ou moins puissants, ils sont tous prêts à en découdre avec le joueur.",
+        "Le joueur n'aura pas d'autre choix que de les défaire pour avancer !"
+      ]
+    },
+    {
+      "title": "Des monstres intelligents",
+      "content": [
+        "En groupe, les ennemis peuvent se montrer redoutables. Ils se coordonnent pour attaquer le joueur et le forcer à se déplacer.",
+        "Basés sur un système de steering, les ennemis sont capables de se déplacer en considérant les obstacles environnants. Une fois le joueur en dehors de la zone de danger, ils retournent à leur position initiale."
+      ]
+    },
+    {
+      "title": "Un système d'inventaire, de boutique, de dialogue",
+      "content": [
+        "Tout RPG se doit de posséder un système d'inventaire. Le joueur récupère des objets et de l'argent en explorant le donjon. Items qu'il pourra échanger contre des objets précieux",
+        "Basé sur les scriptable objects d'Unity, le système d'inventaire a été développé pour être facilement extensible. Créer de nouveaux items se fait en quelques clics. Les dialogues sont également gérés par ce procédé."
+      ]
+    }
+  ]
+}

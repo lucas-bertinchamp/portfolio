@@ -1,0 +1,25 @@
+{
+  "title": "Polygon.io",
+  "rowCategories": ["Presentation", "Gameplay"],
+  "textParagraphs": [
+    "Polygon.io is a web game created as part of the \"Advanced Software Engineering\" course at École des Mines de Nancy.",
+    "The aim of this project was to create a web application using api. We chose to create a multi-player web game, inspired by the style of the game ",
+    "In this game, players embody polygons and must shoot down other players to gain experience and evolve into a larger polygon. (An n-sided polygon can shoot n projectiles.) Players can also collect experience bubbles on the map or life bubbles to heal themselves. A gauge representing the number of bullets in their magazine is also present. Finally, a player ranking, a minimap and a text chat are displayed in real time.",
+    "The source code for this project is available on ",
+    " The game is no longer deployed so as not to incur hosting costs."
+  ],
+  "midRows": [
+    {
+      "title": "Using Nextjs",
+      "content": "Next.js is an open-source JavaScript framework for building server-side and client-side web applications. The server is in Node.js and the client in React."
+    },
+    {
+      "title": "Graphic elements",
+      "content": "Pixi.js is a JavaScript library for fast, fluid 2D rendering. We used it for all the graphics in the game, including the user interface, polygons, balls and bubbles."
+    },
+    {
+      "title": "Redis database",
+      "content": "We used Redis to store player data (position, experience, etc.) as well as ball and bubble locations on the pitch. Redis enables data to be accessed in a matter of microseconds, which is perfect for a real-time game."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "YeahCastle",
+  "rowCategories": {
+    "one": "Presentation",
+    "two": "Gameplay"
+  },
+  "textParagraphs": {
+    "one": "Yeah Castle is a project born of collaborative work between students from engineering schools and art and design schools (Artem Campus, Nancy, France) as part of the course \"Animation and video game techniques\"",
+    "two": "In teams of 4, this project consisted in producing a video game playable on an arcade terminal, to be exhibited at the \"YEAH\"; festival in Lourmarin (France). The games produced had to be short and have a competitive aspect to encourage players to replay them.",
+    "three": "This game is a \"Mario Like\" type of game, made on Unity (1st experience with this game engine). The player embodies a bear, the festival's emblematic character, who must reach the end of the level to face the boss (1 of the festival's 3 organizers). On his way are enemies that he must avoid or eliminate while moving from platform to platform and collecting power-ups and other score items."
+  }
+}

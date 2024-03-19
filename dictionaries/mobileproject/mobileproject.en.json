@@ -1,0 +1,40 @@
+{
+  "title": "Projet Mobile",
+  "rowCategories": ["Presentation", "And much more to discover soon!"],
+  "textParagraphs": [
+    "Projet Mobile *name yet to be defined* is my first video game project in a non-academic setting and developed on Unity.",
+    "The player embodies a small character who mysteriously lands in a dungeon and must escape. Venturing from room to room, he must avoid the traps that stand in his way, fight enemies and make unexpected encounters.",
+    "This game has been developed entirely on my own since the end of January 2024. It allows me to put into practice the skills I acquired during my studies and to deepen my knowledge of Unity software. Eventually, I'd like to publish it on the App Store and Play Store. All the game's graphic assets come from the work of ",
+    ", who specializes in the creation of 8-bit assets."
+  ],
+  "midRows": [
+    {
+      "title": "A dungeon of many dangers",
+      "content": [
+        "Filled with traps and enemies, the dungeon is a dangerous place where the player will have to be careful to progress.",
+        "With only 2 life points and a short-range attack at the start of the game, you'll need to visit the rooms again and again until you've memorized every last detail."
+      ]
+    },
+    {
+      "title": "Enemies to face",
+      "content": [
+        "Many enemies populate the dungeon. More or less powerful, they're all ready to do battle with the player.",
+        "The player will have no choice but to defeat them to advance!"
+      ]
+    },
+    {
+      "title": "Intelligent monsters",
+      "content": [
+        "In groups, enemies can be formidable. They coordinate to attack the player and force him to move.",
+        "Based on a steering system, enemies are able to move by considering surrounding obstacles. Once the player is out of the danger zone, they return to their initial position."
+      ]
+    },
+    {
+      "title": "An inventory, store and dialog system",
+      "content": [
+        "Every RPG must have an inventory system. The player collects items and money as he explores the dungeon. Items that can be exchanged for precious objects",
+        "Based on Unity's scriptable objects, the inventory system has been developed to be easily expandable. Creating new items takes just a few clicks. Dialogues are also managed by this process."
+      ]
+    }
+  ]
+}

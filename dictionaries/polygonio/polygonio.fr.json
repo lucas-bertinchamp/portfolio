@@ -1,0 +1,25 @@
+{
+  "title": "Polygon.io",
+  "rowCategories": ["Présentation", "Gameplay"],
+  "textParagraphs": [
+    "Polygon.io est un jeu web réalisé dans le cadre du cours \"Advanced Software Engineering\" à l'École des Mines de Nancy.",
+    "Le but de ce projet était de réaliser une application web utilisant des api. Nous avons choisi de réaliser un jeu web, multi-joueurs, s'inspirant du style du jeu \"Agar.io\".",
+    "Dans ce jeu, les joueurs incarnent des polygones et doivent abattre les autres joueurs pour gagner de l'expérience et évoluer en un polygone plus grand. (Un polygone à n cotés peut tirer n projectiles.) Les joueurs peuvent également collecter des bulles d'expérience sur la map ou des bulles de vie pour se soigner. Une jauge représentant le nombre de balles dans leur chargeur est également présente. Enfin, un classement des joueurs, une minimap ainsi qu'un chat textuel sont affiché en temps réel.",
+    "Le code source de ce projet est disponible sur ",
+    " Le jeu n'est plus déployé pour ne pas engendrer de coûts d'hébergement."
+  ],
+  "midRows": [
+    {
+      "title": "Utilisation de Nextjs",
+      "content": "Next.js est un framework JavaScript open-source qui permet de réaliser des applications web côté serveur et côté client. Le serveur est en Node.js et le client en React."
+    },
+    {
+      "title": "Éléments graphique",
+      "content": "Pixi.js est une librairie JavaScript qui permet de réaliser des rendus 2D rapides et fluides. Nous l'avons utilisé pour toute la partie graphique du jeu et notamment l'interface utilisateur, les polygones, les balles et les bulles."
+    },
+    {
+      "title": "Base de données Redis",
+      "content": "Nous avons utilisé Redis pour stocker les données des joueurs (position, expérience ...) mais aussi les emplacements des balles et bulles sur le terrain. Redis permet un acces aux données en quelques microsecondes ce qui est parfait pour un jeu temps-réel."
+    }
+  ]
+}

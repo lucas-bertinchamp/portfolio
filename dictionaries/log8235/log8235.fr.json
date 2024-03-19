@@ -1,0 +1,27 @@
+{
+  "title": "Agents intelligents pour jeux vidéos",
+  "rowCategories": ["Présentation"],
+  "textParagraphs": [
+    "Le cours \"LOG8235 - Agents intelligents pour jeux vidéo\" est disponible à Polytechnique Montréal dans le département de génie logiciel et informatique. Il a été intiallement conçu par Ubisoft et s'oriente autour d'Unreal Engine 5. Aujourd'hui, le cours est dispensé par différents professionnels de l'industrie du jeu vidéo.",
+    "Ce cours se concentre sur l'implémentation d'IA dans les jeux vidéos, en passant par les différentes thématiques qui entourent ce sujet comme l'animation, la physique, la navigation, la décision etc...",
+    "Ci-dessous se trouvent les différents travaux produits en TP dans ce cours."
+  ],
+  "midRows": [
+    {
+      "title": "TP1 : Déplacement par la physique",
+      "content": [
+        "Ce TP avait pour but de se familiariser avec le déplacement d'agents à l'aide de la physique (Raycast, forces, etc...). Ce dernier devait se déplacer dans la scène, éviter les pièges, rejoindre des collectibles pour gagner un boost et attraper/fuir l'agent selon son état.",
+        "A l'aide de Raycasts, on peut récupérer la position des murs ainsi que leur vecteur normal. Cela permet de déterminer la direction dans laquelle l'agent doit se déplacer pour éviter les obstacles par produit vectoriel entre la normale et le up vector de l'agent.",
+        "L'agent peut détecter le joueur à l'aide d'un SphereOverlap. Si un rayon est tracé entre l'agent et le joueur sans obstacles, il se dirige vers lui. Si le joueur attrape un collectible, l'agent passe en comportement de fuite et cherche à s'éloigner de lui."
+      ]
+    },
+    {
+      "title": "TP2 : Déplacement par navmesh et animations",
+      "content": [
+        "Ce TP est similaire au premier, mais cette fois-ci, l'agent doit se déplacer en utilisant une navmesh. Il doit également être capable de sauter par dessus les pièges en utilisant les navlinks à sa disposition. Enfin, il doit être capable de jouer des animations en fonction de son état.",
+        "L'agent peut détecter le joueur à l'aide d'un SphereOverlap. Si un rayon est tracé entre l'agent et le joueur sans obstacles, il se dirige vers lui. L'agent utilise un LKP (Last Known Position) pour aller investiguer la dernière position connue du joueur s'il ne le vois plus.",
+        "L'agent fuit le joueur si ce dernier attrape un collectible. Il s'enfuit vers une des positions de fuite prédéfinies dans la scène."
+      ]
+    }
+  ]
+}

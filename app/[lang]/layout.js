@@ -12,14 +12,14 @@ export const metadata = {
   description: "Lucas Bertinchamp's portfolio.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ params: { lang }, children }) {
   return (
-    <html lang="en">
+    <html>
       <body className={inter.className}>
         <Analytics />
-        <Navbar />
+        <Navbar params={{ lang }} />
         {children}
-        <Footer />
+        <Footer params={{ lang }} />
       </body>
     </html>
   );

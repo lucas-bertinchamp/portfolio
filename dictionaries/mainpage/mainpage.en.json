@@ -1,0 +1,27 @@
+{
+  "title": "LUCAS BERTINCHAMP",
+  "subtitle": "POLYTECHNIQUE MONTREAL x MINES NANCY STUDENT",
+  "rowCategories": ["Personal projects", "Academic projects"],
+  "projects": {
+    "minancyrealm": {
+      "title": "Minancy Realm",
+      "description": "Game made on RPGMaker for the 'Video games and geek culture' course at Mines Nancy."
+    },
+    "yeahcastle": {
+      "title": "Yeah Castle",
+      "description": "Arcade game made on Unity for the 'Animation and video game techniques' course at Mines Nancy."
+    },
+    "polygonio": {
+      "title": "Polygon.io",
+      "description": "Web game created for the 'Advanced Software Engineering' course at Mines Nancy."
+    },
+    "log8235": {
+      "title": "PolyMtl course - LOG8235",
+      "description": "Work related to the 'Intelligent agents for video games' course at Polytechnique Montreal. Course given on Unreal Engine 5 and implemented by Ubisoft."
+    },
+    "mobileproject": {
+      "title": "Mobile Project",
+      "description": "Mobile game under development on Unity."
+    }
+  }
+}

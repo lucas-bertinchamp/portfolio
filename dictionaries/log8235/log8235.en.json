@@ -1,0 +1,27 @@
+{
+  "title": "Intelligent agents for video games",
+  "rowCategories": ["Presentation"],
+  "textParagraphs": [
+    "\"LOG8235 - Intelligent Agents for Video Games\" is available at Polytechnique Montréal in the Software and Computer Engineering department. It was originally designed by Ubisoft and focuses on Unreal Engine 5. Today, the course is taught by various professionals from the video game industry",
+    "This course focuses on the implementation of AI in video games, going through the various themes surrounding this subject such as animation, physics, navigation, decision making etc...",
+    "Below are the different works produced in TP in this course."
+  ],
+  "midRows": [
+    {
+      "title": "TP1 : Displacement by physics",
+      "content": [
+        "The purpose of this TP was to become familiar with moving agents using physics (Raycast, forces, etc...). The agent had to move around the scene, avoid traps, reach collectibles to gain a boost and catch/flee the agent depending on its state.",
+        "Using Raycasts, you can retrieve the position of walls as well as their normal vector. This determines the direction in which the agent should move to avoid obstacles by vector product between the agent's normal and up vector.",
+        "The agent can detect the player using a SphereOverlap. If a ray is traced between the agent and the player without obstacles, it moves towards him. If the player catches a collectible, the agent switches to escape behavior and tries to get away from him."
+      ]
+    },
+    {
+      "title": "TP2 : Moving with navmesh and animations",
+      "content": [
+        "This TP is similar to the first, but this time the agent must move using a navmesh. He must also be able to jump over traps using the navlinks at his disposal. Finally, he must be able to play animations depending on his state.",
+        "The agent can detect the player using a SphereOverlap. If a ray is traced between the agent and the player without obstacles, it moves towards him. The agent uses an LKP (Last Known Position) to investigate the player's last known position if he can no longer see him",
+        "The agent runs away from the player if he catches a collectible. He flees to one of the escape positions predefined in the scene."
+      ]
+    }
+  ]
+}

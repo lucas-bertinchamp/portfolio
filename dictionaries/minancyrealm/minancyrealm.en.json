@@ -1,0 +1,12 @@
+{
+  "title": "Minancy Realm",
+  "rowCategories": {
+    "one": "Presentation",
+    "two": "Trailer"
+  },
+  "textParagraphs": {
+    "one": "Minancy Realm is a project that took 2 weeks to complete as part of the \"Video Games and Geek Culture\" course at Nancy's Ecole des Mines.",
+    "two": "The project consisted in presenting an area of geek culture in an original format. We decided to make a video game to present the theme \"Board games\".",
+    "three": "This game is an RPG made on RPG Maker MV, which I developed myself. The player takes on the role of a youngster in a village where board games come to life and attack the inhabitants following the apprition of a mysterious character. At the end of each battle, the player learns more about the world of board games by collecting items from the defeated games."
+  }
+}

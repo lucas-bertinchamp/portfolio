@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./footer.css";
+import { getDictionary } from "@/app/[lang]/dictionnaries";
 
-export default function Footer() {
+export default async function Footer({ params: { lang } }) {
+  const dictionary = await getDictionary("footer", lang);
   return (
     <div id="footer">
       <div id="social">
@@ -35,9 +37,9 @@ export default function Footer() {
 
       <div id="footerwrap">
         <p>
-          <b>ÉTUDIANT POLYTECHNIQUE MONTREAL x MINES NANCY</b>
+          <b>{dictionary.studies}</b>
         </p>
-        <p>Montreal</p>
+        <p>{dictionary.city}</p>
 
         <p>bertinchamp.lucas@gmail.com</p>
       </div>
