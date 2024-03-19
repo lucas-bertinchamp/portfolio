@@ -19,13 +19,11 @@ export function middleware(request) {
     request.nextUrl.pathname.startsWith("/gifs/")
   )
     return;
-  console.log(request.nextUrl.pathname);
   // Check if there is any supported locale in the pathname
   const { pathname } = request.nextUrl;
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}`) || pathname === `/${locale}`
   );
-  console.log(pathnameHasLocale);
 
   if (pathnameHasLocale) return;
 
