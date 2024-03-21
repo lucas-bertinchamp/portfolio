@@ -26,7 +26,9 @@ export default function Navbar({ params: { lang } }) {
           <a className="navbar-item" href={"/" + lang + "#works"}>
             {projectsText}
           </a>
-          <a className="navbar-item">{aboutText}</a>
+          <a className="navbar-item" href={"/" + lang + "/cv"}>
+            {aboutText}
+          </a>
         </div>
       </div>
     </div>

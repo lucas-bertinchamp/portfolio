@@ -16,7 +16,9 @@ export function middleware(request) {
   if (
     request.nextUrl.pathname.startsWith("/img/") ||
     request.nextUrl.pathname.startsWith("/gifs-unity/") ||
-    request.nextUrl.pathname.startsWith("/gifs/")
+    request.nextUrl.pathname.startsWith("/gifs/") ||
+    request.nextUrl.pathname.startsWith("/pspdfkit-lib/") ||
+    request.nextUrl.pathname.startsWith("/pdf/")
   )
     return;
   // Check if there is any supported locale in the pathname

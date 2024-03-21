@@ -5,6 +5,13 @@ import Footer from "@/components/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Analytics } from "@vercel/analytics/react";
 
+import { pdfjs } from "react-pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.js",
+  import.meta.url
+).toString();
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
