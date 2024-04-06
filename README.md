@@ -4,4 +4,4 @@ The source code of my portfolio site. This website presents all my academic and 
 
 This website can be read in English and French.
 
-You can access it [here](https://lucas-bertinchamp-portfolio.vercel.app)
+You can access it [here](https://lucas-bertinchamp-portfolio.vercel.app).
