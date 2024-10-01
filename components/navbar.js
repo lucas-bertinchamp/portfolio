@@ -9,7 +9,7 @@ export default function Navbar({ params: { lang } }) {
 
   let homeText = lang === "en" ? "Home" : "Accueil";
   let projectsText = lang === "en" ? "Projects" : "Projets";
-  let aboutText = lang === "en" ? "About" : "À propos";
+  let aboutText = lang === "en" ? "Resume" : "CV";
 
   return (
     <div className="navbar-perso">
